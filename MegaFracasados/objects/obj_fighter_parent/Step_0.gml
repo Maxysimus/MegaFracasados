@@ -28,11 +28,7 @@ if (state == "attack") {
 }
 
 // SALTO
-if (keyboard_check_pressed(vk_space) && y == 500) {
-    //state = "attack";
-    //sprite_index = spr_ataque;
-    //image_index = 0;
-    //image_speed = 1;
+if (keyboard_check_pressed(vk_up) && y == 500) {
 	vsp=-10;
 }
 

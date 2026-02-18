@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hitbox",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_cpu","path":"objects/obj_cpu/obj_cpu.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object6",
+  "eventList":[],
   "managed":true,
-  "name":"obj_hitbox",
+  "name":"Object6",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

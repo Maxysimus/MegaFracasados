@@ -1,5 +1,7 @@
 {
   "FolderOrderSettings":[
+    {"name":"Hitbox BY MICHELV","order":8,"path":"folders/Hitbox BY MICHELV.yy",},
+    {"name":"Dependencies","order":1,"path":"folders/Hitbox BY MICHELV/Dependencies.yy",},
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":3,"path":"folders/Scripts.yy",},
@@ -9,10 +11,15 @@
     {"name":"UI","order":6,"path":"folders/UI.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"obj_enemy","order":3,"path":"objects/obj_enemy/obj_enemy.yy",},
+    {"name":"obj_cpu","order":3,"path":"objects/obj_cpu/obj_cpu.yy",},
     {"name":"obj_game_controller","order":2,"path":"objects/obj_game_controller/obj_game_controller.yy",},
     {"name":"obj_hitbox","order":4,"path":"objects/obj_hitbox/obj_hitbox.yy",},
     {"name":"obj_prueba","order":1,"path":"objects/obj_prueba/obj_prueba.yy",},
+    {"name":"Object6","order":5,"path":"objects/Object6/Object6.yy",},
+    {"name":"oHitbox_Manager","order":3,"path":"objects/oHitbox_Manager/oHitbox_Manager.yy",},
+    {"name":"oHurtbox","order":4,"path":"objects/oHurtbox/oHurtbox.yy",},
+    {"name":"hitboxlib","order":2,"path":"scripts/hitboxlib/hitboxlib.yy",},
+    {"name":"SpriteData","order":1,"path":"scripts/SpriteData/SpriteData.yy",},
     {"name":"spr_ataque","order":2,"path":"sprites/spr_ataque/spr_ataque.yy",},
     {"name":"spr_prueba","order":1,"path":"sprites/spr_prueba/spr_prueba.yy",},
   ],

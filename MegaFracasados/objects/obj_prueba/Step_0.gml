@@ -12,13 +12,7 @@ if (y > 500) {
 var move = keyboard_check(vk_right) - keyboard_check(vk_left);
 x += move * walk_speed;
 
-// ATAQUE
-if (keyboard_check_pressed(ord("Z"))) {
-    state = "attack";
-    sprite_index = spr_ataque;
-    image_index = 0;
-    image_speed = 1;
-}
+
 
 if (state == "attack") {
     if (image_index >= image_number - 1) {
