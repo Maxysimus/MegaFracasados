@@ -26,6 +26,7 @@ if (state == "attack") {
         sprite_index = spr_prueba;
     }
 }
+attack_timer = current_time;
 
 // SALTO
 if (keyboard_check_pressed(vk_space) && y == 500) {
