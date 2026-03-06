@@ -1,3 +1,4 @@
+has_control = true;
 grav = 0.5;
 vsp = 0;
 

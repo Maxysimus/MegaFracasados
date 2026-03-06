@@ -13,7 +13,10 @@ for (var i = 0; i < array_length(opciones); i++) {
     var by = 250 + i * 60;
     var bw = 200;
     var bh = 45;
-	var hover = (mouse_x > bx && mouse_x < bx+bw && mouse_y > by && mouse_y < by+bh);
+	// Sustituye tu línea de hover por esta:
+	var mx = device_mouse_x_to_gui(0);
+	var my = device_mouse_y_to_gui(0);
+	var hover = (mx > bx && mx < bx + bw && my > by && my < by + bh);
 
     draw_set_color(hover ? c_white : make_color_rgb(60, 100, 200));
     draw_rectangle(bx, by, bx+bw, by+bh, false);
